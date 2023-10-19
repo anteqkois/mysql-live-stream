@@ -12,11 +12,13 @@
   "dependencies": {
     "@prisma/client": "5.4.2",
     "dotenv": "^16.3.1",
-    "mysql": "^2.18.1",
+    "mysql2": "^3.6.2",
     "zongji": "^0.5.1"
   },
   "devDependencies": {
+    "@types/mysql": "^2.15.23",
     "@types/node": "^20.8.7",
+    "@types/zongji": "^0.5.2",
     "prisma": "^5.4.2",
     "ts-node": "^10.9.1",
     "typescript": "^5.2.2"
